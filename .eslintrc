@@ -1,0 +1,15 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:react-native/all", "standard"],
+  "parser": "babel-eslint",
+  "plugins": ["react", "react-native", "import", "node", "promise", "standard"],
+  "rules": {
+    "no-console": 0,
+    "space-before-function-paren": [2, { "anonymous": "always", "named": "never" }],
+    "react/no-string-refs": 0,
+  }
+}
